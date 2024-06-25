@@ -5,14 +5,14 @@ public class ScriptGamePlay : MonoBehaviour
 {
     public GameObject Level;
     public GameObject Dragobject;
-    
+
     public List<GameObject> Slot;
 
     public int[] numbers = new int[6];
 
     public float DropDistance;
 
-    public Vector2 objectInitPost;
+    [HideInInspector] public Vector2 objectInitPost;
 
     void Start()
     {
